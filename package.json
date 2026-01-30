@@ -1,0 +1,50 @@
+{
+  "name": "mathpwa",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A powerful scientific calculator PWA with graphing and statistics features",
+  "keywords": [
+    "calculator",
+    "scientific-calculator",
+    "pwa",
+    "progressive-web-app",
+    "preact",
+    "typescript",
+    "vite",
+    "mathjs",
+    "graphing-calculator",
+    "statistics"
+  ],
+  "author": "Dakota Lewallen",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamFlowZ/mathpwa.git"
+  },
+  "homepage": "https://IamFlowZ.github.io/mathpwa/",
+  "bugs": {
+    "url": "https://github.com/IamFlowZ/mathpwa/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "mathjs": "^15.1.0",
+    "preact": "^10.27.2"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.2",
+    "@testing-library/preact": "^3.2.4",
+    "@types/node": "^24.10.1",
+    "@vitest/coverage-v8": "^4.0.18",
+    "happy-dom": "^20.4.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vite-plugin-pwa": "^1.2.0",
+    "vitest": "^4.0.18"
+  }
+}
