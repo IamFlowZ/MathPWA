@@ -5,7 +5,7 @@
 
 A powerful Progressive Web Application (PWA) providing scientific calculator functionality with graphing, statistics, and calculation history.
 
-**Live Demo**: [https://IamFlowZ.github.io/mathpwa/](https://IamFlowZ.github.io/mathpwa/)
+**Live Demo**: [https://IamFlowZ.github.io/MathPWA/](https://IamFlowZ.github.io/MathPWA/)
 
 ## Features
 
@@ -37,8 +37,8 @@ A powerful Progressive Web Application (PWA) providing scientific calculator fun
 
 ```bash
 # Clone the repository
-git clone https://github.com/IamFlowZ/mathpwa.git
-cd mathpwa
+git clone https://github.com/IamFlowZ/MathPWA.git
+cd MathPWA
 
 # Install dependencies
 npm install
@@ -93,7 +93,7 @@ NODE_ENV=production npm run build
 ## Project Structure
 
 ```
-mathpwa/
+MathPWA/
 ├── src/
 │   ├── components/        # Preact components
 │   │   ├── Calculator.tsx # Main calculator component

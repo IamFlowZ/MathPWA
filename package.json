@@ -19,11 +19,11 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IamFlowZ/mathpwa.git"
+    "url": "git+https://github.com/IamFlowZ/MathPWA.git"
   },
-  "homepage": "https://IamFlowZ.github.io/mathpwa/",
+  "homepage": "https://IamFlowZ.github.io/MathPWA/",
   "bugs": {
-    "url": "https://github.com/IamFlowZ/mathpwa/issues"
+    "url": "https://github.com/IamFlowZ/MathPWA/issues"
   },
   "scripts": {
     "dev": "vite",

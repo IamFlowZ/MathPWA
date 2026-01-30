@@ -3,7 +3,7 @@ import preact from '@preact/preset-vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/mathpwa/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/MathPWA/' : '/',
   plugins: [
     preact(),
     VitePWA({
